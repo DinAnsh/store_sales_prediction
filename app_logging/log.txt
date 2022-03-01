@@ -1,0 +1,32 @@
+25/02/2022, 16:51:20	Open Home page
+25/02/2022, 16:56:49	Predict func called
+25/02/2022, 16:56:49	log file opened
+25/02/2022, 16:56:49	Got values from user
+25/02/2022, 16:56:49	Values encoded
+25/02/2022, 16:56:49	Values predicted
+25/02/2022, 16:56:49	Prediction file opened
+25/02/2022, 16:56:49	list Value OUT049 inserted
+25/02/2022, 16:56:49	list Value 116.6492 inserted
+25/02/2022, 16:56:49	list Value Supermarket Type1 inserted
+25/02/2022, 16:56:49	Output inserted
+25/02/2022, 16:56:49	Got output 6.4821
+25/02/2022, 16:56:49	log file closed
+28/02/2022, 14:32:38	Open Home page
+28/02/2022, 14:33:30	Predict func called
+28/02/2022, 14:33:30	log file opened
+28/02/2022, 14:33:30	Got values from user
+28/02/2022, 14:33:30	Values encoded
+28/02/2022, 14:33:30	Values predicted
+28/02/2022, 14:33:30	Prediction file opened
+28/02/2022, 14:33:30	list Value OUT018 inserted
+28/02/2022, 14:33:30	list Value 56.1614 inserted
+28/02/2022, 14:33:30	list Value Supermarket Type1 inserted
+28/02/2022, 14:33:30	Output inserted
+28/02/2022, 14:33:30	Got output 5.3112
+28/02/2022, 14:33:30	log file closed
+28/02/2022, 14:33:46	Open Home page
+28/02/2022, 14:54:19	Predict func called
+28/02/2022, 14:54:19	log file opened
+28/02/2022, 14:54:19	Got values from user
+28/02/2022, 14:54:19	ERROR!! There is some error!!
+28/02/2022, 14:54:19	log file closed
