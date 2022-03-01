@@ -30,3 +30,10 @@
 28/02/2022, 14:54:19	Got values from user
 28/02/2022, 14:54:19	ERROR!! There is some error!!
 28/02/2022, 14:54:19	log file closed
+01/03/2022, 14:36:30	Open Home page
+01/03/2022, 14:36:47	Predict func called
+01/03/2022, 14:36:47	log file opened
+01/03/2022, 14:36:47	Got values from user
+01/03/2022, 14:36:47	Values encoded
+01/03/2022, 14:36:47	ERROR!! There is some error!!
+01/03/2022, 14:36:47	log file closed

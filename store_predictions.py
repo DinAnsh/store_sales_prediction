@@ -1,5 +1,5 @@
 import log as log
-def write_in_file(features,obj,log_file):
+def write_in_file(features, obj, log_file):
     '''
     This function will write the prediction into 'prediction.txt' file. 
     So any time you can check what model predicted for certain values.\n
