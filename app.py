@@ -11,7 +11,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 
 @app.route('/',methods=['GET'])
-def home_page():
+def home():
     file = open("app_logging\log.txt","a+")
     log.put_log(file,"Open Home page")
     file.close()
