@@ -1,7 +1,5 @@
 # doing necessary imports
 import numpy as np
-import os
-from wsgiref import simple_server
 from flask import Flask, request, jsonify, render_template
 import pickle
 import log 
@@ -51,11 +49,6 @@ def predict():
     finally:
         log.put_log(file,"log file closed")
         file.close()
-        
-port = int(os.getenv("PORT",5000))
+
 if __name__ == "__main__":
-    host = '0.0.0.0'
-    #port = 5000
-    httpd = simple_server.make_server(host, port, app)
-    # print("Serving on %s %d" % (host, port))
-    httpd.serve_forever()
+    app.run(debug=True)     # running the app on the local machine on port 5000
