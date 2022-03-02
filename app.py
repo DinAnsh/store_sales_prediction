@@ -51,4 +51,8 @@ def predict():
         file.close()
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     app.run(debug=True)     # running the app on the local machine on port 5000
+=======
+    app.run(debug=True)
+>>>>>>> e26dcc3bdaa11f509fc020463d3525c450185360
