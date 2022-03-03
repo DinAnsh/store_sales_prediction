@@ -9,7 +9,10 @@
   <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-
+<style>
+  h1 {text-align: center;}
+  form {text-align: center;}
+</style>
 </head>
 
 <body>
@@ -18,17 +21,53 @@
 
     <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}" method="post">
-      <input type="text" name="Outlet Identifier" placeholder="Outlet Identifier" required="required" />
-      <input type="text" name="Item MRP" placeholder="Item MRP" required="required" />
-      <input type="text" name="Outlet Type" placeholder="Outlet Type" required="required" />
+    <br>
+    <table align="center">
+      <tr>
+    <td align="left"> <label for="Outlet Type">Choose an Outlet Type:</label> </td>
+    <td align="left"><select name="Outlet Type" id="ot">
+      <option value="Grocery Store">Grocery Store</option>
+      <option value="Supermarket Type1">Supermarket Type1</option>
+      <option value="Supermarket Type2">Supermarket Type2</option>
+      <option value="Supermarket Type3">Supermarket Type3</option>
+    </select>
+    </br>
+    </td>
+    </tr>
+  
+    <tr> <td align="left"> <label for="MRP">Enter the MRP:</label> </td>
+     <td align="left"> <input type="text" name="Item MRP" placeholder="Item MRP" required="required" align="right"> 
+    </br> </td> </tr>
+       <tr> <td align="left"><label for="Outlet Identifier">Choose an Outlet Identifier:</label></td>
+       <td align="left"> <select name="Outlet Identifier" id="oi">
+          <option value="OUT010">OUT010</option>
+          <option value="OUT013">OUT013</option>
+          <option value="OUT017">OUT017</option>
+          <option value="OUT018">OUT018</option>
+          <option value="OUT019">OUT019</option>
+          <option value="OUT027">OUT027</option>
+          <option value="OUT035">OUT035</option>
+          <option value="OUT045">OUT045</option>
+          <option value="OUT046">OUT046</option>
+          <option value="OUT049">OUT049</option>
+        </select>
+      </br>
+      </td>
+      </tr>
 
-      <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+
+
+    <tr> <td colspan="2"> <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button> </br> </td> </tr>
+    
+
     </form>
 
-    <br>
-    <br>
+    <tr>
+      <td colspan="2">
     {{ prediction_text }}
-
+    </td>
+    </tr>
+  </table>
   </div>
 
 

@@ -1,58 +1,59 @@
 # doing necessary imports
 import numpy as np
-from flask import Flask, request, jsonify, render_template
-import pickle
-import log 
+from flask import Flask, request, render_template
+from flask_cors import CORS, cross_origin
+import pickle   
+import log
 import Encoding
 import store_predictions
 
-app = Flask(__name__)       # initialising the flask app with the name 'app'
+# initialising the flask app with the name 'app'
+app = Flask(__name__)
+
+# load the model for prediction
 model = pickle.load(open('model.pkl', 'rb'))
 
 
-@app.route('/',methods=['GET'])
-def home():
-    file = open("app_logging\log.txt","a+")
-    log.put_log(file,"Open Home page")
-    file.close()
+@app.route('/', methods=['GET'])
+@cross_origin()
+def home_page():
+    log.put_log(2, "Open Home page")
     return render_template('index.html')
 
-@app.route('/predict',methods=['POST'])
+
+@app.route('/predict', methods=['POST'])
+@cross_origin()
 def predict():
     '''
     For rendering results on HTML GUI
     '''
     try:
-        file = open("app_logging\log.txt","a+")
-        log.put_log(file,"Predict func called")
-        log.put_log(file,"log file opened")
+        log.put_log(2, "Predict func called")
         user_values = list(request.form.values())
-        log.put_log(file,"Got values from user")
+        log.put_log(2, "Got values from user")
         features = Encoding.get_features(user_values)
-        log.put_log(file,"Values encoded")
-        final_features = [np.array(features)]
-        prediction = model.predict(final_features)
-        log.put_log(file,"Values predicted")
+        log.put_log(2, "Values encoded")
+        try:
+            final_features = [np.array(features)]
+            prediction = model.predict(final_features)
+        except:
+            log.put_log(3, " There is some error!!")
+            return f"There is an ERROR - {features}"
+        log.put_log(2, "Values predicted")
 
         output = round(prediction[0], 4)
-        store_predictions.write_in_file(user_values,output,file)       
+        store_predictions.write_in_file(user_values, output)
 
-        log.put_log(file,f"Got output {output}")
-        
-
+        log.put_log(2, f"Got output {output}")
         return render_template('index.html', prediction_text='Item Outlet Sales Should be $ {}'.format(output**4))
-    
+
     except Exception as e:
-        log.put_log(file,"ERROR!! There is some error!!")
-        raise e
+        log.put_log(3, " There is some error!!")
+        return f"There is an ERROR in prediction - {e} !!"
 
     finally:
-        log.put_log(file,"log file closed")
-        file.close()
+        log.put_log(2, "Prediction Successfull!")
+
 
 if __name__ == "__main__":
-<<<<<<< HEAD
-    app.run(debug=True)     # running the app on the local machine on port 5000
-=======
     app.run(debug=True)
->>>>>>> e26dcc3bdaa11f509fc020463d3525c450185360
