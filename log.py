@@ -1,11 +1,21 @@
-from datetime import datetime
+import logging
 
-def put_log(file_obj,message):
+def put_log(level,msg):
     '''
-    Put your log messages in 'log.txt' file\n
-    file_obj - object of 'log.txt' file\n
-    message - a message to put in 'log.txt' file
+    Put your log messages in 'log.log' file\n
+    level   - 1 or 2 or 3\n
+    \t\t1-info\n
+    \t\t2-warning\n
+    \t\t3-error\n
+    message - short description of level
     '''
-    present_date_time = datetime.now()
-    date_time = present_date_time.strftime("%d/%m/%Y, %H:%M:%S")
-    file_obj.write(f"{date_time}\t{message}\n")
+    logging.basicConfig(filename= "app_logging/log.log",
+                        filemode='a+',
+                        format=  '%(asctime)s\t%(levelname)s- %(message)s',
+                        datefmt="%d-%m-%Y, %H:%M:%S")
+    if level == 1:
+        logging.info(msg)
+    if level == 2:
+        logging.warning(msg)
+    if level == 3:
+        logging.error(msg)
