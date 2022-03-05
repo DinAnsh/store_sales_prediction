@@ -1,7 +1,6 @@
 # doing necessary imports
 import numpy as np
-from flask import Flask, request, render_template
-from flask_cors import CORS, cross_origin
+from flask import Flask, request, render_template,jsonify
 import pickle   
 import log
 import Encoding
@@ -15,14 +14,15 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 
 @app.route('/', methods=['GET'])
-@cross_origin()
 def home_page():
     log.put_log(2, "Open Home page")
-    return render_template('index.html')
+    return render_template('home.html')
 
+@app.route('/about',methods=['GET'])
+def about():
+    return render_template('about.html')
 
 @app.route('/predict', methods=['POST'])
-@cross_origin()
 def predict():
     '''
     For rendering results on HTML GUI
@@ -32,6 +32,7 @@ def predict():
         user_values = list(request.form.values())
         log.put_log(2, "Got values from user")
         features = Encoding.get_features(user_values)
+        
         log.put_log(2, "Values encoded")
         try:
             final_features = [np.array(features)]
@@ -41,18 +42,17 @@ def predict():
             return f"There is an ERROR - {features}"
         log.put_log(2, "Values predicted")
 
-        output = round(prediction[0], 4)
+        output = prediction[0]
         store_predictions.write_in_file(user_values, output)
 
         log.put_log(2, f"Got output {output}")
-        return render_template('index.html', prediction_text='Item Outlet Sales Should be $ {}'.format(output**4))
+        prediction = round(output**4,4)
+        log.put_log(2, "Prediction Successfull!")
+        return render_template('result.html', prediction=prediction)
 
     except Exception as e:
-        log.put_log(3, " There is some error!!")
+        log.put_log(3, f"There is some error!!{e}")
         return f"There is an ERROR in prediction - {e} !!"
-
-    finally:
-        log.put_log(2, "Prediction Successfull!")
 
 
 if __name__ == "__main__":
