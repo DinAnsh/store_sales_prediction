@@ -2,7 +2,7 @@ cassandra-driver==3.25.0
 certifi==2020.6.20
 click==8.0.4
 colorama==0.4.4
-dataclasses==0.6
+dataclasses==0.8
 Flask==2.0.3
 geomet==0.2.1.post1
 gunicorn==20.1.0
@@ -11,7 +11,7 @@ itsdangerous==2.0.1
 Jinja2==3.0.3
 joblib==1.1.0
 MarkupSafe==2.0.1
-numpy==1.19.0
+numpy==1.19.5
 pandas==1.1.5
 python-dateutil==2.8.2
 pytz==2021.3
