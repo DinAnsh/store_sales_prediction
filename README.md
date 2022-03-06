@@ -1,7 +1,8 @@
 # store_sales_prediction
 ![image](https://cdn.pixabay.com/photo/2015/08/07/16/07/shopping-879498_960_720.jpg) <br />
 
-According to the quote, "Success in sales is the sum of small efforts, repeated day in & day out"<br />
+According to the quote, "Success in sales is the sum of small efforts, repeated day in & day out".
+<br />
 Let us consider a supermarket has several outlets or several stores around the world & they want us to predict the sales which they can expect.
 We can tell the company what are all the challenges they may face
 What are the brands or products which is sold the most & other such kind of things
@@ -10,8 +11,8 @@ They can also make several marketing plans(let's say that a particular product i
 
 ---
 ### Problem Statement :
-The main goal is to make analysis of data and to build Machine learning model to predict the sales of each the item at a particular outlet. 
-We have 12 columns and 8523 rows of data. We get this data from Kaggle. 
+Nowadays, shopping malls and Big Marts keep track of individual item sales data in order to forecast future client demand and adjust inventory management. In a data warehouse, these data stores hold a significant amount of consumer information and particular item details. By mining the data store from the data warehouse, more anomalies and common patterns can be discovered.
+The main goal is to make analysis of data and to build Machine learning model to predict the sales of each the item at a particular outlet. We have 12 columns and 8523 rows of data. We get this data from Kaggle. 
 
 ---
 ### Data Preprocessing :
