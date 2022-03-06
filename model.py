@@ -51,4 +51,7 @@ g_boosting = GradientBoostingRegressor(
      )
 g_boosting.fit(X_train,y_train)
 
+# print(f"Scaled train Score - {g_boosting.score(X_train,y_train)}")
+# print(f"Scaled test Score - {g_boosting.score(X_test,y_test)}")
+
 pickle.dump(g_boosting,open('model.pkl','wb'))

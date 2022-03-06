@@ -40,7 +40,7 @@ def get_features(values):
             Item_type = Item_Type_encoder(values[i])
         if i==4:    #Item_Visibility
             try:
-                vis = float(values[i])
+                vis = float(values[i])**(1/2)
             except :
                 return "please enter numeric value in Item_visibilty !!"
         if i==5:    #Outlet_Establishment_year
