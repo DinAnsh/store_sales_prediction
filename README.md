@@ -10,8 +10,8 @@ They can also make several marketing plans(let's say that a particular product i
 
 ---
 ### Problem Statement :
-We have 12 columns and 8523 rows. The main goal is to make analysis of data and to build Machine learning model to predict the sales of each of each item at a particular outlet.
-
+The main goal is to make analysis of data and to build Machine learning model to predict the sales of each of each item at a particular outlet. 
+We have 12 columns and 8523 rows of data. We get this data from Kaggle. 
 ---
 ### Data Preprocessing :
 As we saw it, our dataset contains null values in two columns: Item_Weight and Outlet_Size. By making exploratory we found some idea about how we can deal with NaN values in these columns.
