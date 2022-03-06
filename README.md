@@ -10,7 +10,7 @@ They can also make several marketing plans(let's say that a particular product i
 
 ---
 ### Problem Statement :
-The main goal is to make analysis of data and to build Machine learning model to predict the sales of each of each item at a particular outlet. 
+The main goal is to make analysis of data and to build Machine learning model to predict the sales of each the item at a particular outlet. 
 We have 12 columns and 8523 rows of data. We get this data from Kaggle. 
 
 ---
