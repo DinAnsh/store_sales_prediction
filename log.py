@@ -29,7 +29,7 @@ def _count_generator(reader):
         b = reader(1024 * 1024)
 
 #if log file contains more than 2000 lines than make file empty 
-with open(r'app_logging\log.log', 'rb+') as fp:
+with open('app_logging/log.log', 'rb+') as fp:
     c_generator = _count_generator(fp.raw.read)
     count = sum(buffer.count(b'\n') for buffer in c_generator)
     if count+1 >= 2000:                 
