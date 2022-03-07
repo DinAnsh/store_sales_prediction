@@ -13,7 +13,7 @@ app = Flask(__name__)
 model = pickle.load(open('model.pkl', 'rb'))
 
 
-@app.route('/', methods=['GET'])
+@app.route('/', methods=['GET', 'POST'])
 def home_page():
     log.put_log(2, "Open Home page")
     return render_template('home.html')
