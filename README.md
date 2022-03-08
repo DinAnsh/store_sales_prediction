@@ -39,7 +39,12 @@ Let's to make some hypotheses about features of data. Let's ask what element can
 These hypotheses are subjective. but with further exploration of the data, we will accept or reject each of these assumptions.
 
 ---
+<<<<<<< HEAD
 ### WebApp Link: https://store-sales-prediction-app.herokuapp.com/
+=======
+### WebApp Link : https://store-sales-prediction-app.herokuapp.com/
+
+>>>>>>> 0286e366d600dbb3646562e502858e2adfa8f199
 ---
 ### Credit:
 - Dipendra Singh https://www.linkedin.com/in/dipendrahada/
