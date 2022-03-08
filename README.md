@@ -1,7 +1,8 @@
 # store_sales_prediction
 ![image](https://cdn.pixabay.com/photo/2015/08/07/16/07/shopping-879498_960_720.jpg) <br />
 
-According to the quote, "Success in sales is the sum of small efforts, repeated day in & day out"<br />
+According to the quote, "Success in sales is the sum of small efforts, repeated day in & day out".
+<br />
 Let us consider a supermarket has several outlets or several stores around the world & they want us to predict the sales which they can expect.
 We can tell the company what are all the challenges they may face
 What are the brands or products which is sold the most & other such kind of things
@@ -9,12 +10,12 @@ This helps sales team to understand which product to sell & which product to pro
 They can also make several marketing plans(let's say that a particular product in a particular store is getting sold the most & we may find some insights from it - as of why this product is getting sold the most & this helps the company to make better marketing decisions)
 
 ---
-### Problem Statement :
-The main goal is to make analysis of data and to build Machine learning model to predict the sales of each of each item at a particular outlet. 
-We have 12 columns and 8523 rows of data. We get this data from Kaggle. 
+### Problem Statement:
+Nowadays, shopping malls and Big Marts keep track of individual item sales data in order to forecast future client demand and adjust inventory management. In a data warehouse, these data stores hold a significant amount of consumer information and particular item details. By mining the data store from the data warehouse, more anomalies and common patterns can be discovered.
+The main goal is to make analysis of data and to build Machine learning model to predict the sales of each the item at a particular outlet. We have 12 columns and 8523 rows of data. We get this data from Kaggle. 
 
 ---
-### Data Preprocessing :
+### Data Preprocessing:
 As we saw it, our dataset contains null values in two columns: Item_Weight and Outlet_Size. By making exploratory we found some idea about how we can deal with NaN values in these columns.
 - All the Null values in **Item_Weight** belongs to the Year 1985. 
 - We replaced null values of **Item_Weight** with each Item_Identifier's mean Weight.
@@ -38,10 +39,14 @@ Let's to make some hypotheses about features of data. Let's ask what element can
 These hypotheses are subjective. but with further exploration of the data, we will accept or reject each of these assumptions.
 
 ---
+<<<<<<< HEAD
+### WebApp Link: https://store-sales-prediction-app.herokuapp.com/
+=======
 ### WebApp Link : https://store-sales-prediction-app.herokuapp.com/
 
+>>>>>>> 0286e366d600dbb3646562e502858e2adfa8f199
 ---
-### Credit :
+### Credit:
 - Dipendra Singh https://www.linkedin.com/in/dipendrahada/
 - Dinansh Bhardwaj https://www.linkedin.com/in/dinansh/
 #### Thank You for reading 😃<br> If you like this project, please do give the star. If you have any suggestions or issues, please drop a message.
