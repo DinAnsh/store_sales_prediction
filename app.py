@@ -1,7 +1,6 @@
 # doing necessary imports
 import numpy as np
 from flask import Flask, request, render_template
-from flask_cors import CORS, cross_origin
 import pickle   
 import log
 import Encoding
@@ -15,14 +14,12 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 
 @app.route('/', methods=['GET'])
-@cross_origin()
 def home_page():
     log.put_log(2, "Open Home page")
     return render_template('index.html')
 
 
 @app.route('/predict', methods=['POST'])
-@cross_origin()
 def predict():
     '''
     For rendering results on HTML GUI
