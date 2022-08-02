@@ -1,78 +1,18 @@
-<!doctype html>
-<html lang="en">
+{% extends 'base.html' %}
 
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+{% block result %}
 
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Prediction Result</title>
-  <style>
-    .next_predb {
-      height:30px;
-      width:130px; 
-      border-radius: 5px;
-      cursor: pointer;
-      background-color: white;
-      border: 2px solid #e7e7e7;
-    }
-    .next_predb:hover{
-      background-color: #e7e7e7;
-    }
-  </style>
-</head>
-
-<body>
-
-  <header>
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">Store Sales Prediction</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item ">
-            <a class="nav-link" href="/">Home </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="/about">About </a>
-          </li>
-
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  <h2 style="   text-align: center;
-    padding-top: 87px;
-    color: rgb(26, 77, 110);">Store Sales Prediction Project</h2>
-  <p style="text-align: center; color:red; padding-top: 10px;font-size: 12px">Machine learning Web App.
-    <span style="color: grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-   'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Built with flask</span>
-  </p>
   <div>
     <h3 style="text-align: center; color:green;padding-top: 150px;">Prediction</h3>
   </div>
 
   <p style=" text-align: center;padding-top: 15px;">
       Item Outlet Sales Would be : {{prediction}}
-      </p>
-      <p style="text-align: center;">
-        <a href="/">
-          <button class="next_predb">Next Prediction</button>
-        </a>
-      </p>
-    
-      <footer style="text-align: center; padding-top: 280px;">
-        <p>By Dipendra & Dinansh 🤖</p>
-      </footer>
-</body>
+  </p>
+  <p style="text-align: center;">
+    <a href="/">
+      <button class="next_predb">Next Prediction</button>
+    </a>
+  </p>
 
-
-</html>
+{% endblock %}

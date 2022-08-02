@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>Store Sales Prediction</title>
+</head>
+
+<body>
+
+    <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="/">Store Sales Prediction</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="/about">About </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </header>
+
+    <h2 style="   text-align: center;
+    padding-top: 87px;
+    color:rgb(26, 77, 110);">Store Sales Prediction Project</h2>
+
+    <p style="color: red;text-align: center; padding-top: 10px;font-size: 12px">Machine learning Web App.
+    <span style="color: grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+      Built with flask
+    </span>
+    </p>
+
+    <div>
+    {% block home %}
+    {% endblock %}
+
+    {% block about %}
+    {% endblock %}
+
+    {% block result %}
+    {% endblock %}
+    </div>
+
+    <br><br>
+
+    <footer class=" bg-dark" style="
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    color: white;
+    text-align: center;">
+        <p>By Dipendra & Dinansh 🤖</p>
+    </footer>
+</body>
+
+</html>

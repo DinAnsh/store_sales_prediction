@@ -49,3 +49,33 @@ OUT010,Regular,456.99,Fruits and Vegetables,3.4,1987,Medium,Grocery Store,623.92
 OUT010,Regular,456.99,Fruits and Vegetables,3.4,1987,Medium,Grocery Store,623.9237373598831
 OUT018,Low Fat,353,Canned,2,1987,High,Grocery Store,625.2926037266861
 OUT018,Low Fat,353,Canned,2,1987,High,Grocery Store,625.2926037266861
+OUT018,Regular,51,Soft Drinks,3,1999,Small,Grocery Store,123.99264082648826
+OUT017,Low Fat,-1,Hard Drinks,1,1987,Medium,Supermarket Type1,472.3567825281197
+OUT017,Low Fat,4,Meat,1,1997,Small,Grocery Store,60.07248905073429
+OUT017,Low Fat,4,Meat,1,1997,Small,Grocery Store,60.07248905073429
+OUT018,Low Fat,5,Meat,2,1997,Medium,Supermarket Type3,813.6650861374314
+OUT027,Regular,4,Meat,3,1999,Medium,Supermarket Type2,519.3839489466635
+OUT027,Regular,4,Meat,3,1999,Medium,Supermarket Type2,519.3839489466635
+OUT027,Regular,4,Meat,3,1999,Medium,Supermarket Type2,519.3839489466635
+OUT027,Regular,4,Meat,3,1999,Medium,Supermarket Type2,519.3839489466635
+OUT027,Regular,4,Meat,3,1999,Medium,Supermarket Type2,519.3839489466635
+OUT049,Low Fat,4,Dairy,7,2004,Small,Grocery Store,77.27501075952512
+OUT049,Low Fat,4,Dairy,7,2004,Small,Grocery Store,77.27501075952512
+OUT049,Low Fat,4,Dairy,7,2004,Small,Grocery Store,77.27501075952512
+OUT049,Low Fat,4,Dairy,7,2004,Small,Grocery Store,77.27501075952512
+OUT049,Low Fat,4,Dairy,7,2004,Small,Grocery Store,77.27501075952512
+OUT049,Low Fat,4,Dairy,7,2004,Small,Grocery Store,77.27501075952512
+OUT049,Low Fat,4,Dairy,7,2004,Small,Grocery Store,77.27501075952512
+OUT049,Low Fat,4,Dairy,7,2004,Small,Grocery Store,77.27501075952512
+OUT049,Low Fat,4,Dairy,7,2004,Small,Grocery Store,77.27501075952512
+OUT049,Low Fat,4,Dairy,7,2004,Small,Grocery Store,77.27501075952512
+OUT049,Low Fat,4,Dairy,7,2004,Small,Grocery Store,77.27501075952512
+OUT049,Low Fat,4,Dairy,7,2004,Small,Grocery Store,77.27501075952512
+OUT049,Low Fat,4,Dairy,7,2004,Small,Grocery Store,77.27501075952512
+OUT017,Regular,3600,Soft Drinks,12,1999,High,Supermarket Type3,5883.898861586646
+OUT017,Regular,3600,Soft Drinks,12,1999,High,Supermarket Type3,5883.898861586646
+OUT017,Low Fat,70000,Soft Drinks,2,1998,High,Grocery Store,600.8257917495316
+OUT017,Low Fat,70000,Soft Drinks,2,1998,High,Grocery Store,600.8257917495316
+OUT017,Low Fat,70000,Soft Drinks,2,1998,High,Grocery Store,600.8257917495316
+OUT017,Low Fat,70000,Soft Drinks,2,1998,High,Grocery Store,600.8257917495316
+OUT017,Low Fat,70000,Soft Drinks,2,1998,High,Grocery Store,600.8257917495316

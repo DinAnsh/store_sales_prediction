@@ -1,3 +1,665 @@
 07-03-2022, 01:14:25	WARNING- Open Home page
 07-03-2022, 01:14:26	INFO- 127.0.0.1 - - [07/Mar/2022 01:14:26] "GET / HTTP/1.1" 200 -
 07-03-2022, 01:14:26	INFO- 127.0.0.1 - - [07/Mar/2022 01:14:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+31-07-2022, 19:27:34	WARNING- Open Home page
+31-07-2022, 19:27:34	INFO- 127.0.0.1 - - [31/Jul/2022 19:27:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+31-07-2022, 19:27:34	INFO- 127.0.0.1 - - [31/Jul/2022 19:27:34] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+31-07-2022, 19:27:34	INFO- 127.0.0.1 - - [31/Jul/2022 19:27:34] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+31-07-2022, 19:27:34	INFO- 127.0.0.1 - - [31/Jul/2022 19:27:34] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+31-07-2022, 19:27:34	INFO- 127.0.0.1 - - [31/Jul/2022 19:27:34] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+31-07-2022, 19:27:35	INFO- 127.0.0.1 - - [31/Jul/2022 19:27:35] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+31-07-2022, 20:00:18	WARNING- Open Home page
+31-07-2022, 20:00:18	INFO- 127.0.0.1 - - [31/Jul/2022 20:00:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+31-07-2022, 20:00:18	INFO- 127.0.0.1 - - [31/Jul/2022 20:00:18] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+31-07-2022, 20:00:18	INFO- 127.0.0.1 - - [31/Jul/2022 20:00:18] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+31-07-2022, 20:00:18	INFO- 127.0.0.1 - - [31/Jul/2022 20:00:18] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+31-07-2022, 20:00:18	INFO- 127.0.0.1 - - [31/Jul/2022 20:00:18] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+31-07-2022, 20:00:18	INFO- 127.0.0.1 - - [31/Jul/2022 20:00:18] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+31-07-2022, 20:03:01	WARNING- Open Home page
+31-07-2022, 20:03:01	INFO- 127.0.0.1 - - [31/Jul/2022 20:03:01] "GET / HTTP/1.1" 200 -
+31-07-2022, 20:03:01	INFO- 127.0.0.1 - - [31/Jul/2022 20:03:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+31-07-2022, 22:15:41	WARNING- Open Home page
+31-07-2022, 22:15:41	INFO- 127.0.0.1 - - [31/Jul/2022 22:15:41] "GET / HTTP/1.1" 200 -
+31-07-2022, 22:15:50	WARNING- Predict func called
+31-07-2022, 22:15:50	WARNING- Got values from user
+31-07-2022, 22:15:50	ERROR-  There is some error!!
+31-07-2022, 22:15:50	WARNING- Prediction Successfull!
+31-07-2022, 22:15:50	INFO- 127.0.0.1 - - [31/Jul/2022 22:15:50] "POST /predict HTTP/1.1" 200 -
+31-07-2022, 23:30:17	WARNING- Open Home page
+31-07-2022, 23:30:19	INFO- 127.0.0.1 - - [31/Jul/2022 23:30:19] "GET / HTTP/1.1" 200 -
+02-08-2022, 17:17:36	WARNING- Open Home page
+02-08-2022, 17:17:38	INFO- 127.0.0.1 - - [02/Aug/2022 17:17:38] "GET / HTTP/1.1" 200 -
+02-08-2022, 17:17:38	WARNING- Open Home page
+02-08-2022, 17:17:38	INFO- 127.0.0.1 - - [02/Aug/2022 17:17:38] "GET / HTTP/1.1" 200 -
+02-08-2022, 17:17:38	INFO- 127.0.0.1 - - [02/Aug/2022 17:17:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+02-08-2022, 17:17:38	INFO- 127.0.0.1 - - [02/Aug/2022 17:17:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+02-08-2022, 18:16:19	INFO-  * Detected change in 'C:\\Users\\DinAnsh\\Desktop\\GitHub_projects\\SSP_v1.0\\web_app.py', reloading
+02-08-2022, 18:20:00	WARNING- Open Home page
+02-08-2022, 18:20:00	INFO- 127.0.0.1 - - [02/Aug/2022 18:20:00] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:20:00	WARNING- Open Home page
+02-08-2022, 18:20:00	INFO- 127.0.0.1 - - [02/Aug/2022 18:20:00] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:20:06	WARNING- Open Home page
+02-08-2022, 18:20:06	INFO- 127.0.0.1 - - [02/Aug/2022 18:20:06] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:20:07	INFO- 127.0.0.1 - - [02/Aug/2022 18:20:07] "GET /about HTTP/1.1" 200 -
+02-08-2022, 18:20:11	WARNING- Open Home page
+02-08-2022, 18:20:11	INFO- 127.0.0.1 - - [02/Aug/2022 18:20:11] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:24:00	WARNING- Open Home page
+02-08-2022, 18:24:00	INFO- 127.0.0.1 - - [02/Aug/2022 18:24:00] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:24:32	WARNING- Predict func called
+02-08-2022, 18:24:32	WARNING- Got values from user
+02-08-2022, 18:24:32	WARNING- Values encoded
+02-08-2022, 18:24:32	WARNING- Values predicted
+02-08-2022, 18:24:32	WARNING- Prediction file opened
+02-08-2022, 18:24:32	WARNING- list Value OUT018 inserted
+02-08-2022, 18:24:32	WARNING- list Value Regular inserted
+02-08-2022, 18:24:32	WARNING- list Value 51 inserted
+02-08-2022, 18:24:32	WARNING- list Value Soft Drinks inserted
+02-08-2022, 18:24:32	WARNING- list Value 3 inserted
+02-08-2022, 18:24:32	WARNING- list Value 1999 inserted
+02-08-2022, 18:24:32	WARNING- list Value Small inserted
+02-08-2022, 18:24:32	WARNING- list Value Grocery Store inserted
+02-08-2022, 18:24:32	WARNING- Output inserted
+02-08-2022, 18:24:32	WARNING- Got output 3.3369444532553856
+02-08-2022, 18:24:32	WARNING- Prediction Successfull!
+02-08-2022, 18:24:32	INFO- 127.0.0.1 - - [02/Aug/2022 18:24:32] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 18:24:35	WARNING- Open Home page
+02-08-2022, 18:24:35	INFO- 127.0.0.1 - - [02/Aug/2022 18:24:35] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:33:28	WARNING- Open Home page
+02-08-2022, 18:33:28	INFO- 127.0.0.1 - - [02/Aug/2022 18:33:28] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:33:33	WARNING- Open Home page
+02-08-2022, 18:33:33	INFO- 127.0.0.1 - - [02/Aug/2022 18:33:33] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:33:35	INFO- 127.0.0.1 - - [02/Aug/2022 18:33:35] "GET /about HTTP/1.1" 200 -
+02-08-2022, 18:33:35	WARNING- Open Home page
+02-08-2022, 18:33:35	INFO- 127.0.0.1 - - [02/Aug/2022 18:33:35] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:34:06	WARNING- Predict func called
+02-08-2022, 18:34:06	WARNING- Got values from user
+02-08-2022, 18:34:06	WARNING- Values encoded
+02-08-2022, 18:34:06	WARNING- Values predicted
+02-08-2022, 18:34:06	WARNING- Prediction file opened
+02-08-2022, 18:34:06	WARNING- list Value OUT017 inserted
+02-08-2022, 18:34:06	WARNING- list Value Low Fat inserted
+02-08-2022, 18:34:06	WARNING- list Value -1 inserted
+02-08-2022, 18:34:06	WARNING- list Value Hard Drinks inserted
+02-08-2022, 18:34:06	WARNING- list Value 1 inserted
+02-08-2022, 18:34:06	WARNING- list Value 1987 inserted
+02-08-2022, 18:34:06	WARNING- list Value Medium inserted
+02-08-2022, 18:34:06	WARNING- list Value Supermarket Type1 inserted
+02-08-2022, 18:34:06	WARNING- Output inserted
+02-08-2022, 18:34:06	WARNING- Got output 4.661949222673585
+02-08-2022, 18:34:06	WARNING- Prediction Successfull!
+02-08-2022, 18:34:06	INFO- 127.0.0.1 - - [02/Aug/2022 18:34:06] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 18:34:20	INFO- 127.0.0.1 - - [02/Aug/2022 18:34:20] "GET /about HTTP/1.1" 200 -
+02-08-2022, 18:34:31	INFO- 127.0.0.1 - - [02/Aug/2022 18:34:31] "GET /about HTTP/1.1" 200 -
+02-08-2022, 18:35:02	INFO- 127.0.0.1 - - [02/Aug/2022 18:35:02] "GET /about HTTP/1.1" 200 -
+02-08-2022, 18:35:06	WARNING- Open Home page
+02-08-2022, 18:35:06	INFO- 127.0.0.1 - - [02/Aug/2022 18:35:06] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:35:09	INFO- 127.0.0.1 - - [02/Aug/2022 18:35:09] "GET /about HTTP/1.1" 200 -
+02-08-2022, 18:35:53	INFO- 127.0.0.1 - - [02/Aug/2022 18:35:53] "GET /about HTTP/1.1" 200 -
+02-08-2022, 18:36:14	INFO- 127.0.0.1 - - [02/Aug/2022 18:36:14] "GET /about HTTP/1.1" 200 -
+02-08-2022, 18:36:15	WARNING- Open Home page
+02-08-2022, 18:36:15	INFO- 127.0.0.1 - - [02/Aug/2022 18:36:15] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:36:16	WARNING- Open Home page
+02-08-2022, 18:36:16	INFO- 127.0.0.1 - - [02/Aug/2022 18:36:16] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:36:35	WARNING- Predict func called
+02-08-2022, 18:36:35	WARNING- Got values from user
+02-08-2022, 18:36:35	WARNING- Values encoded
+02-08-2022, 18:36:35	WARNING- Values predicted
+02-08-2022, 18:36:35	WARNING- Prediction file opened
+02-08-2022, 18:36:35	WARNING- list Value OUT017 inserted
+02-08-2022, 18:36:35	WARNING- list Value Low Fat inserted
+02-08-2022, 18:36:35	WARNING- list Value 4 inserted
+02-08-2022, 18:36:35	WARNING- list Value Meat inserted
+02-08-2022, 18:36:35	WARNING- list Value 1 inserted
+02-08-2022, 18:36:35	WARNING- list Value 1997 inserted
+02-08-2022, 18:36:35	WARNING- list Value Small inserted
+02-08-2022, 18:36:35	WARNING- list Value Grocery Store inserted
+02-08-2022, 18:36:35	WARNING- Output inserted
+02-08-2022, 18:36:35	WARNING- Got output 2.7839979217113897
+02-08-2022, 18:36:35	WARNING- Prediction Successfull!
+02-08-2022, 18:36:35	INFO- 127.0.0.1 - - [02/Aug/2022 18:36:35] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 18:39:01	WARNING- Predict func called
+02-08-2022, 18:39:01	WARNING- Got values from user
+02-08-2022, 18:39:01	WARNING- Values encoded
+02-08-2022, 18:39:01	WARNING- Values predicted
+02-08-2022, 18:39:01	WARNING- Prediction file opened
+02-08-2022, 18:39:01	WARNING- list Value OUT017 inserted
+02-08-2022, 18:39:01	WARNING- list Value Low Fat inserted
+02-08-2022, 18:39:01	WARNING- list Value 4 inserted
+02-08-2022, 18:39:01	WARNING- list Value Meat inserted
+02-08-2022, 18:39:01	WARNING- list Value 1 inserted
+02-08-2022, 18:39:01	WARNING- list Value 1997 inserted
+02-08-2022, 18:39:01	WARNING- list Value Small inserted
+02-08-2022, 18:39:01	WARNING- list Value Grocery Store inserted
+02-08-2022, 18:39:01	WARNING- Output inserted
+02-08-2022, 18:39:01	WARNING- Got output 2.7839979217113897
+02-08-2022, 18:39:01	WARNING- Prediction Successfull!
+02-08-2022, 18:39:01	INFO- 127.0.0.1 - - [02/Aug/2022 18:39:01] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 18:39:05	WARNING- Open Home page
+02-08-2022, 18:39:05	INFO- 127.0.0.1 - - [02/Aug/2022 18:39:05] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:40:31	WARNING- Open Home page
+02-08-2022, 18:40:31	INFO- 127.0.0.1 - - [02/Aug/2022 18:40:31] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:40:33	INFO- 127.0.0.1 - - [02/Aug/2022 18:40:33] "GET /about HTTP/1.1" 200 -
+02-08-2022, 18:40:40	WARNING- Open Home page
+02-08-2022, 18:40:40	INFO- 127.0.0.1 - - [02/Aug/2022 18:40:40] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:40:41	WARNING- Open Home page
+02-08-2022, 18:40:41	INFO- 127.0.0.1 - - [02/Aug/2022 18:40:41] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:40:48	WARNING- Open Home page
+02-08-2022, 18:40:48	INFO- 127.0.0.1 - - [02/Aug/2022 18:40:48] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:40:49	WARNING- Open Home page
+02-08-2022, 18:40:49	INFO- 127.0.0.1 - - [02/Aug/2022 18:40:49] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:42:12	WARNING- Open Home page
+02-08-2022, 18:42:12	INFO- 127.0.0.1 - - [02/Aug/2022 18:42:12] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:43:16	WARNING- Open Home page
+02-08-2022, 18:43:16	INFO- 127.0.0.1 - - [02/Aug/2022 18:43:16] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:43:48	WARNING- Predict func called
+02-08-2022, 18:43:48	WARNING- Got values from user
+02-08-2022, 18:43:48	WARNING- Values encoded
+02-08-2022, 18:43:48	WARNING- Values predicted
+02-08-2022, 18:43:48	WARNING- Prediction file opened
+02-08-2022, 18:43:48	WARNING- list Value OUT018 inserted
+02-08-2022, 18:43:48	WARNING- list Value Low Fat inserted
+02-08-2022, 18:43:48	WARNING- list Value 5 inserted
+02-08-2022, 18:43:48	WARNING- list Value Meat inserted
+02-08-2022, 18:43:48	WARNING- list Value 2 inserted
+02-08-2022, 18:43:48	WARNING- list Value 1997 inserted
+02-08-2022, 18:43:48	WARNING- list Value Medium inserted
+02-08-2022, 18:43:48	WARNING- list Value Supermarket Type3 inserted
+02-08-2022, 18:43:48	WARNING- Output inserted
+02-08-2022, 18:43:48	WARNING- Got output 5.3408627832139794
+02-08-2022, 18:43:48	WARNING- Prediction Successfull!
+02-08-2022, 18:43:48	INFO- 127.0.0.1 - - [02/Aug/2022 18:43:48] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 18:43:58	WARNING- Open Home page
+02-08-2022, 18:43:58	INFO- 127.0.0.1 - - [02/Aug/2022 18:43:58] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:47:47	WARNING- Open Home page
+02-08-2022, 18:47:47	INFO- 127.0.0.1 - - [02/Aug/2022 18:47:47] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:47:49	INFO- 127.0.0.1 - - [02/Aug/2022 18:47:49] "GET /about HTTP/1.1" 200 -
+02-08-2022, 18:47:52	INFO- 127.0.0.1 - - [02/Aug/2022 18:47:52] "GET /about HTTP/1.1" 200 -
+02-08-2022, 18:48:51	INFO- 127.0.0.1 - - [02/Aug/2022 18:48:51] "GET /about HTTP/1.1" 200 -
+02-08-2022, 18:48:54	INFO- 127.0.0.1 - - [02/Aug/2022 18:48:54] "GET /about HTTP/1.1" 200 -
+02-08-2022, 18:48:55	WARNING- Open Home page
+02-08-2022, 18:48:55	INFO- 127.0.0.1 - - [02/Aug/2022 18:48:55] "GET / HTTP/1.1" 200 -
+02-08-2022, 18:49:09	WARNING- Predict func called
+02-08-2022, 18:49:09	WARNING- Got values from user
+02-08-2022, 18:49:09	WARNING- Values encoded
+02-08-2022, 18:49:09	WARNING- Values predicted
+02-08-2022, 18:49:09	WARNING- Prediction file opened
+02-08-2022, 18:49:09	WARNING- list Value OUT027 inserted
+02-08-2022, 18:49:09	WARNING- list Value Regular inserted
+02-08-2022, 18:49:09	WARNING- list Value 4 inserted
+02-08-2022, 18:49:09	WARNING- list Value Meat inserted
+02-08-2022, 18:49:09	WARNING- list Value 3 inserted
+02-08-2022, 18:49:09	WARNING- list Value 1999 inserted
+02-08-2022, 18:49:09	WARNING- list Value Medium inserted
+02-08-2022, 18:49:09	WARNING- list Value Supermarket Type2 inserted
+02-08-2022, 18:49:09	WARNING- Output inserted
+02-08-2022, 18:49:09	WARNING- Got output 4.773886957812582
+02-08-2022, 18:49:09	WARNING- Prediction Successfull!
+02-08-2022, 18:49:09	INFO- 127.0.0.1 - - [02/Aug/2022 18:49:09] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 18:53:13	WARNING- Predict func called
+02-08-2022, 18:53:13	WARNING- Got values from user
+02-08-2022, 18:53:13	WARNING- Values encoded
+02-08-2022, 18:53:13	WARNING- Values predicted
+02-08-2022, 18:53:13	WARNING- Prediction file opened
+02-08-2022, 18:53:13	WARNING- list Value OUT027 inserted
+02-08-2022, 18:53:13	WARNING- list Value Regular inserted
+02-08-2022, 18:53:13	WARNING- list Value 4 inserted
+02-08-2022, 18:53:13	WARNING- list Value Meat inserted
+02-08-2022, 18:53:13	WARNING- list Value 3 inserted
+02-08-2022, 18:53:13	WARNING- list Value 1999 inserted
+02-08-2022, 18:53:13	WARNING- list Value Medium inserted
+02-08-2022, 18:53:13	WARNING- list Value Supermarket Type2 inserted
+02-08-2022, 18:53:13	WARNING- Output inserted
+02-08-2022, 18:53:13	WARNING- Got output 4.773886957812582
+02-08-2022, 18:53:13	WARNING- Prediction Successfull!
+02-08-2022, 18:53:13	INFO- 127.0.0.1 - - [02/Aug/2022 18:53:13] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:12:14	WARNING- Predict func called
+02-08-2022, 19:12:14	WARNING- Got values from user
+02-08-2022, 19:12:14	WARNING- Values encoded
+02-08-2022, 19:12:14	WARNING- Values predicted
+02-08-2022, 19:12:14	WARNING- Prediction file opened
+02-08-2022, 19:12:14	WARNING- list Value OUT027 inserted
+02-08-2022, 19:12:14	WARNING- list Value Regular inserted
+02-08-2022, 19:12:14	WARNING- list Value 4 inserted
+02-08-2022, 19:12:14	WARNING- list Value Meat inserted
+02-08-2022, 19:12:14	WARNING- list Value 3 inserted
+02-08-2022, 19:12:14	WARNING- list Value 1999 inserted
+02-08-2022, 19:12:14	WARNING- list Value Medium inserted
+02-08-2022, 19:12:14	WARNING- list Value Supermarket Type2 inserted
+02-08-2022, 19:12:14	WARNING- Output inserted
+02-08-2022, 19:12:14	WARNING- Got output 4.773886957812582
+02-08-2022, 19:12:14	WARNING- Prediction Successfull!
+02-08-2022, 19:12:14	INFO- 127.0.0.1 - - [02/Aug/2022 19:12:14] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:12:46	WARNING- Predict func called
+02-08-2022, 19:12:46	WARNING- Got values from user
+02-08-2022, 19:12:46	WARNING- Values encoded
+02-08-2022, 19:12:46	WARNING- Values predicted
+02-08-2022, 19:12:46	WARNING- Prediction file opened
+02-08-2022, 19:12:46	WARNING- list Value OUT027 inserted
+02-08-2022, 19:12:46	WARNING- list Value Regular inserted
+02-08-2022, 19:12:46	WARNING- list Value 4 inserted
+02-08-2022, 19:12:46	WARNING- list Value Meat inserted
+02-08-2022, 19:12:46	WARNING- list Value 3 inserted
+02-08-2022, 19:12:46	WARNING- list Value 1999 inserted
+02-08-2022, 19:12:46	WARNING- list Value Medium inserted
+02-08-2022, 19:12:46	WARNING- list Value Supermarket Type2 inserted
+02-08-2022, 19:12:46	WARNING- Output inserted
+02-08-2022, 19:12:46	WARNING- Got output 4.773886957812582
+02-08-2022, 19:12:46	WARNING- Prediction Successfull!
+02-08-2022, 19:12:46	INFO- 127.0.0.1 - - [02/Aug/2022 19:12:46] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:13:11	WARNING- Predict func called
+02-08-2022, 19:13:11	WARNING- Got values from user
+02-08-2022, 19:13:11	WARNING- Values encoded
+02-08-2022, 19:13:11	WARNING- Values predicted
+02-08-2022, 19:13:11	WARNING- Prediction file opened
+02-08-2022, 19:13:11	WARNING- list Value OUT027 inserted
+02-08-2022, 19:13:11	WARNING- list Value Regular inserted
+02-08-2022, 19:13:11	WARNING- list Value 4 inserted
+02-08-2022, 19:13:11	WARNING- list Value Meat inserted
+02-08-2022, 19:13:11	WARNING- list Value 3 inserted
+02-08-2022, 19:13:11	WARNING- list Value 1999 inserted
+02-08-2022, 19:13:11	WARNING- list Value Medium inserted
+02-08-2022, 19:13:11	WARNING- list Value Supermarket Type2 inserted
+02-08-2022, 19:13:11	WARNING- Output inserted
+02-08-2022, 19:13:11	WARNING- Got output 4.773886957812582
+02-08-2022, 19:13:11	WARNING- Prediction Successfull!
+02-08-2022, 19:13:11	INFO- 127.0.0.1 - - [02/Aug/2022 19:13:11] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:13:18	WARNING- Open Home page
+02-08-2022, 19:13:18	INFO- 127.0.0.1 - - [02/Aug/2022 19:13:18] "GET / HTTP/1.1" 200 -
+02-08-2022, 19:13:25	INFO- 127.0.0.1 - - [02/Aug/2022 19:13:25] "GET /about HTTP/1.1" 200 -
+02-08-2022, 19:15:52	INFO- 127.0.0.1 - - [02/Aug/2022 19:15:52] "GET /about HTTP/1.1" 200 -
+02-08-2022, 19:16:12	INFO- 127.0.0.1 - - [02/Aug/2022 19:16:12] "GET /about HTTP/1.1" 200 -
+02-08-2022, 19:16:15	INFO- 127.0.0.1 - - [02/Aug/2022 19:16:15] "GET /about HTTP/1.1" 200 -
+02-08-2022, 19:16:29	INFO- 127.0.0.1 - - [02/Aug/2022 19:16:29] "GET /about HTTP/1.1" 200 -
+02-08-2022, 19:16:31	WARNING- Open Home page
+02-08-2022, 19:16:31	INFO- 127.0.0.1 - - [02/Aug/2022 19:16:31] "GET / HTTP/1.1" 200 -
+02-08-2022, 19:16:51	WARNING- Predict func called
+02-08-2022, 19:16:51	WARNING- Got values from user
+02-08-2022, 19:16:51	WARNING- Values encoded
+02-08-2022, 19:16:51	WARNING- Values predicted
+02-08-2022, 19:16:51	WARNING- Prediction file opened
+02-08-2022, 19:16:51	WARNING- list Value OUT049 inserted
+02-08-2022, 19:16:51	WARNING- list Value Low Fat inserted
+02-08-2022, 19:16:51	WARNING- list Value 4 inserted
+02-08-2022, 19:16:51	WARNING- list Value Dairy inserted
+02-08-2022, 19:16:51	WARNING- list Value 7 inserted
+02-08-2022, 19:16:51	WARNING- list Value 2004 inserted
+02-08-2022, 19:16:51	WARNING- list Value Small inserted
+02-08-2022, 19:16:51	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:16:51	WARNING- Output inserted
+02-08-2022, 19:16:51	WARNING- Got output 2.96489807799126
+02-08-2022, 19:16:51	WARNING- Prediction Successfull!
+02-08-2022, 19:16:51	INFO- 127.0.0.1 - - [02/Aug/2022 19:16:51] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:17:26	WARNING- Predict func called
+02-08-2022, 19:17:26	WARNING- Got values from user
+02-08-2022, 19:17:26	WARNING- Values encoded
+02-08-2022, 19:17:26	WARNING- Values predicted
+02-08-2022, 19:17:26	WARNING- Prediction file opened
+02-08-2022, 19:17:26	WARNING- list Value OUT049 inserted
+02-08-2022, 19:17:26	WARNING- list Value Low Fat inserted
+02-08-2022, 19:17:26	WARNING- list Value 4 inserted
+02-08-2022, 19:17:26	WARNING- list Value Dairy inserted
+02-08-2022, 19:17:26	WARNING- list Value 7 inserted
+02-08-2022, 19:17:26	WARNING- list Value 2004 inserted
+02-08-2022, 19:17:26	WARNING- list Value Small inserted
+02-08-2022, 19:17:26	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:17:26	WARNING- Output inserted
+02-08-2022, 19:17:26	WARNING- Got output 2.96489807799126
+02-08-2022, 19:17:26	WARNING- Prediction Successfull!
+02-08-2022, 19:17:26	INFO- 127.0.0.1 - - [02/Aug/2022 19:17:26] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:18:05	WARNING- Predict func called
+02-08-2022, 19:18:05	WARNING- Got values from user
+02-08-2022, 19:18:05	WARNING- Values encoded
+02-08-2022, 19:18:05	WARNING- Values predicted
+02-08-2022, 19:18:05	WARNING- Prediction file opened
+02-08-2022, 19:18:05	WARNING- list Value OUT049 inserted
+02-08-2022, 19:18:05	WARNING- list Value Low Fat inserted
+02-08-2022, 19:18:05	WARNING- list Value 4 inserted
+02-08-2022, 19:18:05	WARNING- list Value Dairy inserted
+02-08-2022, 19:18:05	WARNING- list Value 7 inserted
+02-08-2022, 19:18:05	WARNING- list Value 2004 inserted
+02-08-2022, 19:18:05	WARNING- list Value Small inserted
+02-08-2022, 19:18:05	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:18:05	WARNING- Output inserted
+02-08-2022, 19:18:05	WARNING- Got output 2.96489807799126
+02-08-2022, 19:18:05	WARNING- Prediction Successfull!
+02-08-2022, 19:18:05	INFO- 127.0.0.1 - - [02/Aug/2022 19:18:05] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:18:21	WARNING- Predict func called
+02-08-2022, 19:18:21	WARNING- Got values from user
+02-08-2022, 19:18:21	WARNING- Values encoded
+02-08-2022, 19:18:21	WARNING- Values predicted
+02-08-2022, 19:18:21	WARNING- Prediction file opened
+02-08-2022, 19:18:21	WARNING- list Value OUT049 inserted
+02-08-2022, 19:18:21	WARNING- list Value Low Fat inserted
+02-08-2022, 19:18:21	WARNING- list Value 4 inserted
+02-08-2022, 19:18:21	WARNING- list Value Dairy inserted
+02-08-2022, 19:18:21	WARNING- list Value 7 inserted
+02-08-2022, 19:18:21	WARNING- list Value 2004 inserted
+02-08-2022, 19:18:21	WARNING- list Value Small inserted
+02-08-2022, 19:18:21	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:18:21	WARNING- Output inserted
+02-08-2022, 19:18:21	WARNING- Got output 2.96489807799126
+02-08-2022, 19:18:21	WARNING- Prediction Successfull!
+02-08-2022, 19:18:21	INFO- 127.0.0.1 - - [02/Aug/2022 19:18:21] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:21:52	WARNING- Predict func called
+02-08-2022, 19:21:52	WARNING- Got values from user
+02-08-2022, 19:21:52	WARNING- Values encoded
+02-08-2022, 19:21:52	WARNING- Values predicted
+02-08-2022, 19:21:52	WARNING- Prediction file opened
+02-08-2022, 19:21:52	WARNING- list Value OUT049 inserted
+02-08-2022, 19:21:52	WARNING- list Value Low Fat inserted
+02-08-2022, 19:21:52	WARNING- list Value 4 inserted
+02-08-2022, 19:21:52	WARNING- list Value Dairy inserted
+02-08-2022, 19:21:52	WARNING- list Value 7 inserted
+02-08-2022, 19:21:52	WARNING- list Value 2004 inserted
+02-08-2022, 19:21:52	WARNING- list Value Small inserted
+02-08-2022, 19:21:52	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:21:52	WARNING- Output inserted
+02-08-2022, 19:21:52	WARNING- Got output 2.96489807799126
+02-08-2022, 19:21:52	WARNING- Prediction Successfull!
+02-08-2022, 19:21:52	INFO- 127.0.0.1 - - [02/Aug/2022 19:21:52] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:22:16	WARNING- Predict func called
+02-08-2022, 19:22:16	WARNING- Got values from user
+02-08-2022, 19:22:16	WARNING- Values encoded
+02-08-2022, 19:22:16	WARNING- Values predicted
+02-08-2022, 19:22:16	WARNING- Prediction file opened
+02-08-2022, 19:22:16	WARNING- list Value OUT049 inserted
+02-08-2022, 19:22:16	WARNING- list Value Low Fat inserted
+02-08-2022, 19:22:16	WARNING- list Value 4 inserted
+02-08-2022, 19:22:16	WARNING- list Value Dairy inserted
+02-08-2022, 19:22:16	WARNING- list Value 7 inserted
+02-08-2022, 19:22:16	WARNING- list Value 2004 inserted
+02-08-2022, 19:22:16	WARNING- list Value Small inserted
+02-08-2022, 19:22:16	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:22:16	WARNING- Output inserted
+02-08-2022, 19:22:16	WARNING- Got output 2.96489807799126
+02-08-2022, 19:22:16	WARNING- Prediction Successfull!
+02-08-2022, 19:22:16	INFO- 127.0.0.1 - - [02/Aug/2022 19:22:16] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:23:34	WARNING- Predict func called
+02-08-2022, 19:23:34	WARNING- Got values from user
+02-08-2022, 19:23:34	WARNING- Values encoded
+02-08-2022, 19:23:34	WARNING- Values predicted
+02-08-2022, 19:23:34	WARNING- Prediction file opened
+02-08-2022, 19:23:34	WARNING- list Value OUT049 inserted
+02-08-2022, 19:23:34	WARNING- list Value Low Fat inserted
+02-08-2022, 19:23:34	WARNING- list Value 4 inserted
+02-08-2022, 19:23:34	WARNING- list Value Dairy inserted
+02-08-2022, 19:23:34	WARNING- list Value 7 inserted
+02-08-2022, 19:23:34	WARNING- list Value 2004 inserted
+02-08-2022, 19:23:34	WARNING- list Value Small inserted
+02-08-2022, 19:23:34	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:23:34	WARNING- Output inserted
+02-08-2022, 19:23:34	WARNING- Got output 2.96489807799126
+02-08-2022, 19:23:34	WARNING- Prediction Successfull!
+02-08-2022, 19:23:34	INFO- 127.0.0.1 - - [02/Aug/2022 19:23:34] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:27:07	WARNING- Predict func called
+02-08-2022, 19:27:07	WARNING- Got values from user
+02-08-2022, 19:27:07	WARNING- Values encoded
+02-08-2022, 19:27:07	WARNING- Values predicted
+02-08-2022, 19:27:07	WARNING- Prediction file opened
+02-08-2022, 19:27:07	WARNING- list Value OUT049 inserted
+02-08-2022, 19:27:07	WARNING- list Value Low Fat inserted
+02-08-2022, 19:27:07	WARNING- list Value 4 inserted
+02-08-2022, 19:27:07	WARNING- list Value Dairy inserted
+02-08-2022, 19:27:07	WARNING- list Value 7 inserted
+02-08-2022, 19:27:07	WARNING- list Value 2004 inserted
+02-08-2022, 19:27:07	WARNING- list Value Small inserted
+02-08-2022, 19:27:07	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:27:07	WARNING- Output inserted
+02-08-2022, 19:27:07	WARNING- Got output 2.96489807799126
+02-08-2022, 19:27:07	WARNING- Prediction Successfull!
+02-08-2022, 19:27:07	INFO- 127.0.0.1 - - [02/Aug/2022 19:27:07] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:27:27	WARNING- Predict func called
+02-08-2022, 19:27:27	WARNING- Got values from user
+02-08-2022, 19:27:27	WARNING- Values encoded
+02-08-2022, 19:27:27	WARNING- Values predicted
+02-08-2022, 19:27:27	WARNING- Prediction file opened
+02-08-2022, 19:27:27	WARNING- list Value OUT049 inserted
+02-08-2022, 19:27:27	WARNING- list Value Low Fat inserted
+02-08-2022, 19:27:27	WARNING- list Value 4 inserted
+02-08-2022, 19:27:27	WARNING- list Value Dairy inserted
+02-08-2022, 19:27:27	WARNING- list Value 7 inserted
+02-08-2022, 19:27:27	WARNING- list Value 2004 inserted
+02-08-2022, 19:27:27	WARNING- list Value Small inserted
+02-08-2022, 19:27:27	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:27:27	WARNING- Output inserted
+02-08-2022, 19:27:27	WARNING- Got output 2.96489807799126
+02-08-2022, 19:27:27	WARNING- Prediction Successfull!
+02-08-2022, 19:27:27	INFO- 127.0.0.1 - - [02/Aug/2022 19:27:27] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:28:23	WARNING- Predict func called
+02-08-2022, 19:28:23	WARNING- Got values from user
+02-08-2022, 19:28:23	WARNING- Values encoded
+02-08-2022, 19:28:23	WARNING- Values predicted
+02-08-2022, 19:28:23	WARNING- Prediction file opened
+02-08-2022, 19:28:23	WARNING- list Value OUT049 inserted
+02-08-2022, 19:28:23	WARNING- list Value Low Fat inserted
+02-08-2022, 19:28:23	WARNING- list Value 4 inserted
+02-08-2022, 19:28:23	WARNING- list Value Dairy inserted
+02-08-2022, 19:28:23	WARNING- list Value 7 inserted
+02-08-2022, 19:28:23	WARNING- list Value 2004 inserted
+02-08-2022, 19:28:23	WARNING- list Value Small inserted
+02-08-2022, 19:28:23	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:28:23	WARNING- Output inserted
+02-08-2022, 19:28:23	WARNING- Got output 2.96489807799126
+02-08-2022, 19:28:23	WARNING- Prediction Successfull!
+02-08-2022, 19:28:23	INFO- 127.0.0.1 - - [02/Aug/2022 19:28:23] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:28:38	WARNING- Predict func called
+02-08-2022, 19:28:38	WARNING- Got values from user
+02-08-2022, 19:28:38	WARNING- Values encoded
+02-08-2022, 19:28:38	WARNING- Values predicted
+02-08-2022, 19:28:38	WARNING- Prediction file opened
+02-08-2022, 19:28:38	WARNING- list Value OUT049 inserted
+02-08-2022, 19:28:38	WARNING- list Value Low Fat inserted
+02-08-2022, 19:28:38	WARNING- list Value 4 inserted
+02-08-2022, 19:28:38	WARNING- list Value Dairy inserted
+02-08-2022, 19:28:38	WARNING- list Value 7 inserted
+02-08-2022, 19:28:38	WARNING- list Value 2004 inserted
+02-08-2022, 19:28:38	WARNING- list Value Small inserted
+02-08-2022, 19:28:38	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:28:38	WARNING- Output inserted
+02-08-2022, 19:28:38	WARNING- Got output 2.96489807799126
+02-08-2022, 19:28:38	WARNING- Prediction Successfull!
+02-08-2022, 19:28:38	INFO- 127.0.0.1 - - [02/Aug/2022 19:28:38] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:28:52	WARNING- Predict func called
+02-08-2022, 19:28:52	WARNING- Got values from user
+02-08-2022, 19:28:52	WARNING- Values encoded
+02-08-2022, 19:28:52	WARNING- Values predicted
+02-08-2022, 19:28:52	WARNING- Prediction file opened
+02-08-2022, 19:28:52	WARNING- list Value OUT049 inserted
+02-08-2022, 19:28:52	WARNING- list Value Low Fat inserted
+02-08-2022, 19:28:52	WARNING- list Value 4 inserted
+02-08-2022, 19:28:52	WARNING- list Value Dairy inserted
+02-08-2022, 19:28:52	WARNING- list Value 7 inserted
+02-08-2022, 19:28:52	WARNING- list Value 2004 inserted
+02-08-2022, 19:28:52	WARNING- list Value Small inserted
+02-08-2022, 19:28:52	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:28:52	WARNING- Output inserted
+02-08-2022, 19:28:52	WARNING- Got output 2.96489807799126
+02-08-2022, 19:28:52	WARNING- Prediction Successfull!
+02-08-2022, 19:28:52	INFO- 127.0.0.1 - - [02/Aug/2022 19:28:52] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:29:58	WARNING- Predict func called
+02-08-2022, 19:29:58	WARNING- Got values from user
+02-08-2022, 19:29:58	WARNING- Values encoded
+02-08-2022, 19:29:58	WARNING- Values predicted
+02-08-2022, 19:29:58	WARNING- Prediction file opened
+02-08-2022, 19:29:58	WARNING- list Value OUT049 inserted
+02-08-2022, 19:29:58	WARNING- list Value Low Fat inserted
+02-08-2022, 19:29:58	WARNING- list Value 4 inserted
+02-08-2022, 19:29:58	WARNING- list Value Dairy inserted
+02-08-2022, 19:29:58	WARNING- list Value 7 inserted
+02-08-2022, 19:29:58	WARNING- list Value 2004 inserted
+02-08-2022, 19:29:58	WARNING- list Value Small inserted
+02-08-2022, 19:29:58	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:29:58	WARNING- Output inserted
+02-08-2022, 19:29:58	WARNING- Got output 2.96489807799126
+02-08-2022, 19:29:58	WARNING- Prediction Successfull!
+02-08-2022, 19:29:58	INFO- 127.0.0.1 - - [02/Aug/2022 19:29:58] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:30:14	WARNING- Open Home page
+02-08-2022, 19:30:14	INFO- 127.0.0.1 - - [02/Aug/2022 19:30:14] "GET / HTTP/1.1" 200 -
+02-08-2022, 19:30:23	INFO- 127.0.0.1 - - [02/Aug/2022 19:30:23] "GET /about HTTP/1.1" 200 -
+02-08-2022, 19:31:58	INFO- 127.0.0.1 - - [02/Aug/2022 19:31:58] "GET /about HTTP/1.1" 200 -
+02-08-2022, 19:32:20	INFO- 127.0.0.1 - - [02/Aug/2022 19:32:20] "GET /about HTTP/1.1" 200 -
+02-08-2022, 19:32:22	INFO- 127.0.0.1 - - [02/Aug/2022 19:32:22] "GET /about HTTP/1.1" 200 -
+02-08-2022, 19:32:39	INFO- 127.0.0.1 - - [02/Aug/2022 19:32:39] "GET /about HTTP/1.1" 200 -
+02-08-2022, 19:32:45	INFO- 127.0.0.1 - - [02/Aug/2022 19:32:45] "GET /about HTTP/1.1" 200 -
+02-08-2022, 19:32:46	WARNING- Open Home page
+02-08-2022, 19:32:46	INFO- 127.0.0.1 - - [02/Aug/2022 19:32:46] "GET / HTTP/1.1" 200 -
+02-08-2022, 19:33:08	WARNING- Predict func called
+02-08-2022, 19:33:08	WARNING- Got values from user
+02-08-2022, 19:33:08	WARNING- Values encoded
+02-08-2022, 19:33:08	WARNING- Values predicted
+02-08-2022, 19:33:08	WARNING- Prediction file opened
+02-08-2022, 19:33:08	WARNING- list Value OUT017 inserted
+02-08-2022, 19:33:08	WARNING- list Value Regular inserted
+02-08-2022, 19:33:08	WARNING- list Value 3600 inserted
+02-08-2022, 19:33:08	WARNING- list Value Soft Drinks inserted
+02-08-2022, 19:33:08	WARNING- list Value 12 inserted
+02-08-2022, 19:33:08	WARNING- list Value 1999 inserted
+02-08-2022, 19:33:08	WARNING- list Value High inserted
+02-08-2022, 19:33:08	WARNING- list Value Supermarket Type3 inserted
+02-08-2022, 19:33:08	WARNING- Output inserted
+02-08-2022, 19:33:08	WARNING- Got output 8.758229067039087
+02-08-2022, 19:33:08	WARNING- Prediction Successfull!
+02-08-2022, 19:33:08	INFO- 127.0.0.1 - - [02/Aug/2022 19:33:08] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:36:22	WARNING- Predict func called
+02-08-2022, 19:36:22	WARNING- Got values from user
+02-08-2022, 19:36:22	WARNING- Values encoded
+02-08-2022, 19:36:22	WARNING- Values predicted
+02-08-2022, 19:36:22	WARNING- Prediction file opened
+02-08-2022, 19:36:22	WARNING- list Value OUT017 inserted
+02-08-2022, 19:36:22	WARNING- list Value Regular inserted
+02-08-2022, 19:36:22	WARNING- list Value 3600 inserted
+02-08-2022, 19:36:22	WARNING- list Value Soft Drinks inserted
+02-08-2022, 19:36:22	WARNING- list Value 12 inserted
+02-08-2022, 19:36:22	WARNING- list Value 1999 inserted
+02-08-2022, 19:36:22	WARNING- list Value High inserted
+02-08-2022, 19:36:22	WARNING- list Value Supermarket Type3 inserted
+02-08-2022, 19:36:22	WARNING- Output inserted
+02-08-2022, 19:36:22	WARNING- Got output 8.758229067039087
+02-08-2022, 19:36:22	WARNING- Prediction Successfull!
+02-08-2022, 19:36:22	INFO- 127.0.0.1 - - [02/Aug/2022 19:36:22] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:36:24	INFO- 127.0.0.1 - - [02/Aug/2022 19:36:24] "GET /about HTTP/1.1" 200 -
+02-08-2022, 19:36:28	WARNING- Open Home page
+02-08-2022, 19:36:28	INFO- 127.0.0.1 - - [02/Aug/2022 19:36:28] "GET / HTTP/1.1" 200 -
+02-08-2022, 19:37:23	WARNING- Open Home page
+02-08-2022, 19:37:23	INFO- 127.0.0.1 - - [02/Aug/2022 19:37:23] "GET / HTTP/1.1" 200 -
+02-08-2022, 19:37:50	WARNING- Open Home page
+02-08-2022, 19:37:50	INFO- 127.0.0.1 - - [02/Aug/2022 19:37:50] "GET / HTTP/1.1" 200 -
+02-08-2022, 19:38:49	WARNING- Predict func called
+02-08-2022, 19:38:49	WARNING- Got values from user
+02-08-2022, 19:38:49	WARNING- Values encoded
+02-08-2022, 19:38:49	WARNING- Values predicted
+02-08-2022, 19:38:49	WARNING- Prediction file opened
+02-08-2022, 19:38:49	WARNING- list Value OUT017 inserted
+02-08-2022, 19:38:49	WARNING- list Value Low Fat inserted
+02-08-2022, 19:38:49	WARNING- list Value 70000 inserted
+02-08-2022, 19:38:49	WARNING- list Value Soft Drinks inserted
+02-08-2022, 19:38:49	WARNING- list Value 2 inserted
+02-08-2022, 19:38:49	WARNING- list Value 1998 inserted
+02-08-2022, 19:38:49	WARNING- list Value High inserted
+02-08-2022, 19:38:49	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:38:49	WARNING- Output inserted
+02-08-2022, 19:38:49	WARNING- Got output 4.950934056859509
+02-08-2022, 19:38:49	WARNING- Prediction Successfull!
+02-08-2022, 19:38:49	INFO- 127.0.0.1 - - [02/Aug/2022 19:38:49] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:40:02	WARNING- Predict func called
+02-08-2022, 19:40:02	WARNING- Got values from user
+02-08-2022, 19:40:02	WARNING- Values encoded
+02-08-2022, 19:40:02	WARNING- Values predicted
+02-08-2022, 19:40:02	WARNING- Prediction file opened
+02-08-2022, 19:40:02	WARNING- list Value OUT017 inserted
+02-08-2022, 19:40:02	WARNING- list Value Low Fat inserted
+02-08-2022, 19:40:02	WARNING- list Value 70000 inserted
+02-08-2022, 19:40:02	WARNING- list Value Soft Drinks inserted
+02-08-2022, 19:40:02	WARNING- list Value 2 inserted
+02-08-2022, 19:40:02	WARNING- list Value 1998 inserted
+02-08-2022, 19:40:02	WARNING- list Value High inserted
+02-08-2022, 19:40:02	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:40:02	WARNING- Output inserted
+02-08-2022, 19:40:02	WARNING- Got output 4.950934056859509
+02-08-2022, 19:40:02	WARNING- Prediction Successfull!
+02-08-2022, 19:40:02	INFO- 127.0.0.1 - - [02/Aug/2022 19:40:02] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:40:14	WARNING- Predict func called
+02-08-2022, 19:40:14	WARNING- Got values from user
+02-08-2022, 19:40:14	WARNING- Values encoded
+02-08-2022, 19:40:14	WARNING- Values predicted
+02-08-2022, 19:40:14	WARNING- Prediction file opened
+02-08-2022, 19:40:14	WARNING- list Value OUT017 inserted
+02-08-2022, 19:40:14	WARNING- list Value Low Fat inserted
+02-08-2022, 19:40:14	WARNING- list Value 70000 inserted
+02-08-2022, 19:40:14	WARNING- list Value Soft Drinks inserted
+02-08-2022, 19:40:14	WARNING- list Value 2 inserted
+02-08-2022, 19:40:14	WARNING- list Value 1998 inserted
+02-08-2022, 19:40:14	WARNING- list Value High inserted
+02-08-2022, 19:40:14	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:40:14	WARNING- Output inserted
+02-08-2022, 19:40:14	WARNING- Got output 4.950934056859509
+02-08-2022, 19:40:14	WARNING- Prediction Successfull!
+02-08-2022, 19:40:14	INFO- 127.0.0.1 - - [02/Aug/2022 19:40:14] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:40:56	WARNING- Predict func called
+02-08-2022, 19:40:56	WARNING- Got values from user
+02-08-2022, 19:40:56	WARNING- Values encoded
+02-08-2022, 19:40:56	WARNING- Values predicted
+02-08-2022, 19:40:56	WARNING- Prediction file opened
+02-08-2022, 19:40:56	WARNING- list Value OUT017 inserted
+02-08-2022, 19:40:56	WARNING- list Value Low Fat inserted
+02-08-2022, 19:40:56	WARNING- list Value 70000 inserted
+02-08-2022, 19:40:56	WARNING- list Value Soft Drinks inserted
+02-08-2022, 19:40:56	WARNING- list Value 2 inserted
+02-08-2022, 19:40:56	WARNING- list Value 1998 inserted
+02-08-2022, 19:40:56	WARNING- list Value High inserted
+02-08-2022, 19:40:56	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:40:56	WARNING- Output inserted
+02-08-2022, 19:40:56	WARNING- Got output 4.950934056859509
+02-08-2022, 19:40:56	WARNING- Prediction Successfull!
+02-08-2022, 19:40:56	INFO- 127.0.0.1 - - [02/Aug/2022 19:40:56] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:41:07	WARNING- Predict func called
+02-08-2022, 19:41:07	WARNING- Got values from user
+02-08-2022, 19:41:07	WARNING- Values encoded
+02-08-2022, 19:41:07	WARNING- Values predicted
+02-08-2022, 19:41:07	WARNING- Prediction file opened
+02-08-2022, 19:41:07	WARNING- list Value OUT017 inserted
+02-08-2022, 19:41:07	WARNING- list Value Low Fat inserted
+02-08-2022, 19:41:07	WARNING- list Value 70000 inserted
+02-08-2022, 19:41:07	WARNING- list Value Soft Drinks inserted
+02-08-2022, 19:41:07	WARNING- list Value 2 inserted
+02-08-2022, 19:41:07	WARNING- list Value 1998 inserted
+02-08-2022, 19:41:07	WARNING- list Value High inserted
+02-08-2022, 19:41:07	WARNING- list Value Grocery Store inserted
+02-08-2022, 19:41:07	WARNING- Output inserted
+02-08-2022, 19:41:07	WARNING- Got output 4.950934056859509
+02-08-2022, 19:41:07	WARNING- Prediction Successfull!
+02-08-2022, 19:41:07	INFO- 127.0.0.1 - - [02/Aug/2022 19:41:07] "POST /predict HTTP/1.1" 200 -
+02-08-2022, 19:45:49	WARNING- Open Home page
+02-08-2022, 19:45:49	INFO- 127.0.0.1 - - [02/Aug/2022 19:45:49] "GET / HTTP/1.1" 200 -
+02-08-2022, 19:47:30	WARNING- Open Home page
+02-08-2022, 19:47:30	INFO- 127.0.0.1 - - [02/Aug/2022 19:47:30] "GET / HTTP/1.1" 200 -
+02-08-2022, 19:47:49	INFO- 127.0.0.1 - - [02/Aug/2022 19:47:49] "GET /about HTTP/1.1" 200 -
+02-08-2022, 19:48:08	WARNING- Open Home page
+02-08-2022, 19:48:08	INFO- 127.0.0.1 - - [02/Aug/2022 19:48:08] "GET / HTTP/1.1" 200 -
+02-08-2022, 19:56:41	WARNING- Open Home page
+02-08-2022, 19:56:41	INFO- 127.0.0.1 - - [02/Aug/2022 19:56:41] "GET / HTTP/1.1" 200 -
+02-08-2022, 19:57:42	WARNING- Open Home page
+02-08-2022, 19:57:42	INFO- 127.0.0.1 - - [02/Aug/2022 19:57:42] "GET / HTTP/1.1" 200 -
+02-08-2022, 19:57:50	WARNING- Open Home page
+02-08-2022, 19:57:50	INFO- 127.0.0.1 - - [02/Aug/2022 19:57:50] "GET / HTTP/1.1" 200 -
+02-08-2022, 19:57:56	INFO- 127.0.0.1 - - [02/Aug/2022 19:57:56] "GET /about HTTP/1.1" 200 -
+02-08-2022, 20:03:12	INFO- 127.0.0.1 - - [02/Aug/2022 20:03:12] "GET /about HTTP/1.1" 200 -
+02-08-2022, 20:03:22	INFO- 127.0.0.1 - - [02/Aug/2022 20:03:22] "GET /about HTTP/1.1" 200 -
+02-08-2022, 20:03:32	INFO- 127.0.0.1 - - [02/Aug/2022 20:03:32] "GET /about HTTP/1.1" 200 -
+02-08-2022, 20:03:47	INFO- 127.0.0.1 - - [02/Aug/2022 20:03:47] "GET /about HTTP/1.1" 200 -
+02-08-2022, 20:03:58	WARNING- Open Home page
+02-08-2022, 20:03:58	INFO- 127.0.0.1 - - [02/Aug/2022 20:03:58] "GET / HTTP/1.1" 200 -
+02-08-2022, 20:10:22	WARNING- Open Home page
+02-08-2022, 20:10:22	INFO- 127.0.0.1 - - [02/Aug/2022 20:10:22] "GET / HTTP/1.1" 200 -
+02-08-2022, 20:10:25	INFO- 127.0.0.1 - - [02/Aug/2022 20:10:25] "GET /about HTTP/1.1" 200 -
+02-08-2022, 20:10:29	WARNING- Open Home page
+02-08-2022, 20:10:29	INFO- 127.0.0.1 - - [02/Aug/2022 20:10:29] "GET / HTTP/1.1" 200 -
+02-08-2022, 20:11:13	WARNING- Open Home page
+02-08-2022, 20:11:13	INFO- 127.0.0.1 - - [02/Aug/2022 20:11:13] "GET / HTTP/1.1" 200 -
+02-08-2022, 20:11:57	WARNING- Open Home page
+02-08-2022, 20:11:57	INFO- 127.0.0.1 - - [02/Aug/2022 20:11:57] "GET / HTTP/1.1" 200 -
+02-08-2022, 20:12:07	WARNING- Open Home page
+02-08-2022, 20:12:07	INFO- 127.0.0.1 - - [02/Aug/2022 20:12:07] "GET / HTTP/1.1" 200 -
+02-08-2022, 20:12:08	INFO- 127.0.0.1 - - [02/Aug/2022 20:12:08] "GET /about HTTP/1.1" 200 -
+02-08-2022, 20:12:10	WARNING- Open Home page
+02-08-2022, 20:12:10	INFO- 127.0.0.1 - - [02/Aug/2022 20:12:10] "GET / HTTP/1.1" 200 -

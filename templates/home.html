@@ -1,186 +1,113 @@
-<!doctype html>
-<html lang="en">
+{% extends 'base.html' %}
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{% block home %}
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-  <title>Store Sales Prediction</title>
-</head>
-
-<body>
-
-  <header>
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">Store Sales Prediction</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="/about">About </a>
-        </li>
-        
-      </ul>
-    </div>
-  </nav>
-  
-</header>
-  <h2 style="   text-align: center;
-    padding-top: 87px;
-    color:rgb(26, 77, 110);">Store Sales Prediction Project</h2>
-  <p style="color: red;text-align: center; padding-top: 10px;font-size: 12px">Machine learning Web App. <span
-      style="color: grey; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Built
-      with flask</span></p>
   <div class="d-flex justify-content-center align-items-center container pt-5">
+    <form action="/predict" method="post">
+      
+      <div class="form-group">
+        <label>Outlet Identifier</label>
+        <select required name="Outlet_Identifier" class="form-control">
+          <option selected hidden value="">--Please choose an option--</option >
+          <option value="OUT010">OUT010</option>
+          <option value="OUT013">OUT013</option>
+          <option value="OUT017">OUT017</option>
+          <option value="OUT018">OUT018</option>
+          <option value="OUT019">OUT019</option>
+          <option value="OUT027">OUT027</option>
+          <option value="OUT035">OUT035</option>
+          <option value="OUT045">OUT045</option>
+          <option value="OUT046">OUT046</option>
+          <option value="OUT049">OUT049</option>
+        </select>
+      </div>
 
-    <div class="row ">
+      <div class="form-group">
+        <label>Item Fat content</label>
+        <select required name="Item_Fat_Content" class="form-control">
+          <option selected hidden value="">--Please choose an option--</option>
+          <option value="Low Fat">Low Fat</option>
+          <option value="Regular">Regular</option>
+        </select>
+      </div>
 
+      <div class="form-group">
+        <label>Item MRP</label>
+        <input style="width: 50rem;" name="Item_MRP" type="number" step="any" class="form-control" min="0"
+          aria-describedby="emailHelp" placeholder="price of a item(should be numeric) " required>
+      </div>
 
-      <form action="/predict" method="post">
+      <div class="form-group">
+        <label>Item Type</label>
+        <select required name="Item_Type" class="form-control">
+          <option selected hidden value="">--Please choose an option--</option>
+          <option value="Dairy">Dairy</option>
+          <option value="Soft Drinks">Soft Drinks</option>
+          <option value="Meat">Meat</option>
+          <option value="Fruits and Vegetables">Fruits and Vegetables</option>
+          <option value="Household">Household</option>
+          <option value="Baking Goods">Baking Goods</option>
+          <option value="Snack Foods">Snack Foods</option>
+          <option value="Frozen Foods">Frozen Foods</option>
+          <option value="Breakfast">Breakfast</option>
+          <option value="Health and Hygiene">Health and Hygiene</option>
+          <option value="Hard Drinks">Hard Drinks</option>
+          <option value="Canned">Canned</option>
+          <option value="Breads">Breads</option>
+          <option value="Starchy Foods">Starchy Foods</option>
+          <option value="Seafood">Seafood</option>
+          <option value="Others">Others</option>
+        </select>
+      </div>
 
-        <!-- <div class="form-group ">
-          <label for="exampleInputEmail1">Item Identifier</label>
-          <input style="width: 50rem;" name="Age" type="number" class="form-control" id="first"
-            aria-describedby="emailHelp" placeholder="">
-        </div> -->
+      <div class="form-group">
+        <label>Item Visibility</label>
+        <input style="width: 50rem;" name="Item_Visibility" type="number" step="any" class="form-control" min="0"
+          aria-describedby="emailHelp" placeholder="should be decimal" required>
+      </div>
 
-        <div class="form-group">
-          <label for="exampleInputEmail1">Outlet Identifier</label>
-          <select required name="Outlet_Identifier" class="form-control" class="custom-select">
-            <option selected hidden value="">--Please choose an option--</option >
-            <option value="OUT010">OUT010</option>
-            <option value="OUT013">OUT013</option>
-            <option value="OUT017">OUT017</option>
-            <option value="OUT018">OUT018</option>
-            <option value="OUT019">OUT019</option>
-            <option value="OUT027">OUT027</option>
-            <option value="OUT035">OUT035</option>
-            <option value="OUT045">OUT045</option>
-            <option value="OUT046">OUT046</option>
-            <option value="OUT049">OUT049</option>
-          </select>
-        </div>
+      <div class="form-group">
+        <label>Outlet Establishment Year</label>
+        <select required name="Outlet_Establishment_Year" class="form-control">
+          <option selected hidden value="">--Please choose an option--.</option>
+          <option value="1999">1985</option>
+          <option value="1987">1987</option>
+          <option value="1997">1997</option>
+          <option value="1998">1998</option>
+          <option value="1999">1999</option>
+          <option value="2002">2002</option>
+          <option value="2004">2004</option>
+          <option value="2007">2007</option>
+          <option value="2009">2009</option>
+        </select>
+      </div>
 
-        <div class="form-group">
-          <label for="exampleInputEmail1">Item Fat content</label>
-          <select required="required" name="Item_Fat_Content" class="form-control" class="custom-select">
-            <option selected hidden value="">--Please choose an option--</option>
-            <option value="Low Fat">Low Fat</option>
-            <option value="Regular">Regular</option>
-          </select>
-        </div>
+      <div class="form-group ">
+        <label>Outlet Size</label>
+        <select required name="Outlet_Size" class="form-control">
+          <option selected hidden value="">--Please choose an option--</option>
+          <option value="Small">Small</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select>
+      </div>
 
-        <div class="form-group">
-          <label for="exampleInputEmail1">Item MRP</label>
-          <input style="width: 50rem;" name="Item_MRP" type="number" step="any" class="form-control" id="first"
-            aria-describedby="emailHelp" placeholder="price of a item(should be numeric) " required>
-        </div>
+      <div class="form-group">
+        <label>Outlet Type</label>
+        <select required name="Outlet_Type" class="form-control">
+          <option selected hidden value="">--Please choose an option--</option>
+          <option value="Grocery Store">Grocery Store</option>
+          <option value="Supermarket Type1">Supermarket Type1</option>
+          <option value="Supermarket Type2">Supermarket Type2</option>
+          <option value="Supermarket Type3">Supermarket Type3</option>
+        </select>
+      </div>
 
-        <div class="form-group">
-          <label for="exampleInputEmail1">Item Type</label>
-          <select required="required" name="Item_Type" class="form-control" class="custom-select">
-            <option selected hidden value="">--Please choose an option--</option>
-            <option value="Dairy">Dairy</option>
-            <option value="Soft Drinks">Soft Drinks</option>
-            <option value="Meat">Meat</option>
-            <option value="Fruits and Vegetables">Fruits and Vegetables</option>
-            <option value="Household">Household</option>
-            <option value="Baking Goods">Baking Goods</option>
-            <option value="Snack Foods">Snack Foods</option>
-            <option value="Frozen Foods">Frozen Foods</option>
-            <option value="Breakfast">Breakfast</option>
-            <option value="Health and Hygiene">Health and Hygiene</option>
-            <option value="Hard Drinks">Hard Drinks</option>
-            <option value="Canned">Canned</option>
-            <option value="Breads">Breads</option>
-            <option value="Starchy Foods">Starchy Foods</option>
-            <option value="Seafood">Seafood</option>
-            <option value="Others">Others</option>
-          </select>
-        </div>
+      <div class="form-group text-center">
+        <button id="sub" class="btn btn-primary" type="submit" >Predict</button>
+      </div>
 
-        <div class="form-group">
-          <label for="exampleInputEmail1">Item Visibility</label>
-          <input style="width: 50rem;" name="Item_Visibility" type="number" step="any" class="form-control" id="first"
-            aria-describedby="emailHelp" placeholder="should be decimal" required>
-        </div>
-
-        <div class="form-group">
-          <label for="exampleInputEmail1">Outlet Establishment Year</label>
-          <select required="required" name="Outlet_Establishment_Year" class="form-control" id="fuel" class="custom-select"
-            id="inputGroupSelect01">
-            <option selected hidden value="">--Please choose an option--.</option>
-            <option value="1999">1985</option>
-            <option value="1987">1987</option>
-            <option value="1997">1997</option>
-            <option value="1998">1998</option>
-            <option value="1999">1999</option>
-            <option value="2002">2002</option>
-            <option value="2004">2004</option>
-            <option value="2007">2007</option>
-            <option value="2009">2009</option>
-          </select>
-        </div>
-
-        <div class="form-group ">
-          <label for="exampleInputEmail1">Outlet Size</label>
-          <select required="required" name="Outlet_Size" class="form-control" id="fuel" class="custom-select"
-            id="inputGroupSelect01">
-            <option selected hidden value="">--Please choose an option--</option>
-            <option value="Small">Small</option>
-            <option value="Medium">Medium</option>
-            <option value="High">High</option>
-          </select>
-        </div>
-
-
-        <div class="form-group">
-          <label for="exampleInputEmail1">Outlet Type</label>
-          <select required="required" name="Outlet_Type" class="form-control" id="fuel" class="custom-select"
-            id="inputGroupSelect01">
-            <option selected hidden value="">--Please choose an option--</option>
-            <option value="Grocery Store">Grocery Store</option>
-            <option value="Supermarket Type1">Supermarket Type1</option>
-            <option value="Supermarket Type2">Supermarket Type2</option>
-            <option value="Supermarket Type3">Supermarket Type3</option>
-          </select>
-        </div>
-
-        <div class="form-group text-center">
-          <button id="sub" class="btn btn-primary" type="submit " >Predict</button>
-
-        </div>
-      </form>
-    </div>
+    </form>
   </div>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-</body>
-
-<footer style="text-align: center">
-  <p>By Dipendra & Dinansh 🤖</p>
-</footer>
-
-</html>
+{% endblock %}
