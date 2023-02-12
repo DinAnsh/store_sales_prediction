@@ -1,42 +1,51 @@
 # store_sales_prediction
-![image](https://cdn.pixabay.com/photo/2015/08/07/16/07/shopping-879498_960_720.jpg) <br />
+store_sales_prediction is a package which predicts how various items sell based on a provided dataset.
+To accomplish this, the package uses numerous factors such product type, price and visibility. 
+It can predict items sales for any shopping outlet.
+![1_io2zk4HVTX8764K_fJAerw](https://user-images.githubusercontent.com/49347849/218284437-5ed0b8d2-91c0-4f03-95e9-29965970498e.png) <br />
 
 According to the quote, "Success in sales is the sum of small efforts, repeated day in & day out".
 <br />
-Let us consider a supermarket has several outlets or several stores around the world & they want us to predict the sales which they can expect.
-We can tell the company what are all the challenges they may face
-What are the brands or products which is sold the most & other such kind of things
-This helps sales team to understand which product to sell & which product to promote & other such kind of things
-They can also make several marketing plans(let's say that a particular product in a particular store is getting sold the most & we may find some insights from it - as of why this product is getting sold the most & this helps the company to make better marketing decisions)
+Suppose an international shopping chain wants a realistic prediction of sales.
+To assess this, various important factors should be considered,such as the different types and brands of products sold at the company.
+Other important factors to consider how how well certain product types and brands sell.
+This allows the sales team to come up with a reasonable prediction on which products will sell best, and act accordingly in marketing these products. 
 
 ---
 ### Problem Statement:
-Nowadays, shopping malls and Big Marts keep track of individual item sales data in order to forecast future client demand and adjust inventory management. In a data warehouse, these data stores hold a significant amount of consumer information and particular item details. By mining the data store from the data warehouse, more anomalies and common patterns can be discovered.
-The main goal is to make analysis of data and to build Machine learning model to predict the sales of each the item at a particular outlet. We have 12 columns and 8523 rows of data. We get this data from Kaggle. 
-
----
-### Data Preprocessing:
-As we saw it, our dataset contains null values in two columns: Item_Weight and Outlet_Size. By making exploratory we found some idea about how we can deal with NaN values in these columns.
-- All the Null values in **Item_Weight** belongs to the Year 1985. 
-- We replaced null values of **Item_Weight** with each Item_Identifier's mean Weight.
-- For 'Outlet_Size' column, we found a relation between Outlet_Size and Outlet_Type. We will use this to impute Outlet_Size by taking most frequent Size based on Outlet type.
-- As the **Item_Visibility** and **Item_Outlet_sales** were right skewed. We applied *exponential transformation* to reduce skewness or outliers.
-- We made the values of the column "Item_Fat_Content" uniform.
-- Manage categorical columns with **LabelEncoder**.
-
----
-### Data Visualization
-- Data visualization is the graphical representation of information and data.
-- It enables decision makers to see analytics presented visually, so they can grasp difficult concepts or identify new patterns
+Shopping malls and chains want to predict how well their products will sell so they can market and adjust their inventories accordingly. In order to do this, they record individual item sales data. 
+This data, along with consumer information and item details, is stored in data stores, which are located in a data warehouse. 
+By mining the data store from the data warehouse, more anomalies and common patterns can be discovered.
+Humans can make sales predictions themselves. 
+However, man-made sales predictions can be unreliable due to various mistakes, such as incorrectly recording item sales, not accounting for other factors, etc.
+The goal of this project is to analyze such data and build a machine learning model that can predict the sales of each item at a particular outlet. 
+This model could be a useful alternative to man-made sales predictions. 
+store_sales_prediction uses 12 columns and 8523 rows of data, which are retrieved from Kaggle. 
 
 ---
 ### Exploratory Data Analysis (EDA)
-Let's to make some hypotheses about features of data. Let's ask what element can increase or decrease items sales for a supermarket?
-- The usefulness of product for the vast majority of customers. It is defined by product category or the brand of product, and so one... But here, based on our dataset, we can use "Item_Type" feature to estimate the kind of product is loved by customers.
-- The price of product can influence the sales. To valid this hypothese we will check correlation between Item_MRP and "Item_Outlet_Sales"
-- The visibility of product in the store: Column "Item_Visibility"
-- The place where the store is established: depending on the location of the store the product's price may be different so column "Outlet_Location_Type" is important
-These hypotheses are subjective. but with further exploration of the data, we will accept or reject each of these assumptions.
+store_sales_predicition assesses the following variables, which can increase or decrease items sales for a supermarket:
+-The product type: based on a given dataset, store_sales_prediction uses the"Item_Type" feature to estimate product types that have high success among customers.
+- The price of the product; store_sales_prediction checks correlation between Item_MRP and "Item_Outlet_Sales"to see how prices influence sales
+- The visibility of the product; store_sales_prediction uses Column "Item_Visibility" to assess this.
+- The location of the store: store_sales_prediction's column "Outlet_Location_Type" records the store's location, which may influence price.
+
+---
+### Notes-Adjustments for Data Preprocessing:
+Our dataset contained null values in two columns: Item_Weight and Outlet_Size. Using exploratory data analysis, the following adjustments were made to correct this issue:
+- All null values in the **Item_Weight** column were from the year 1985.
+- All null items in the column **Item_Weight** were replaced with mean weight values from Item_Identifier.
+- A relation between Outlet_Size and Outlet_Type was discovered. This will be used to impute Outlet_Size by taking the most frequent outlet size based on outlet type.
+- The data for columns **Item_Visibility** and **Item_Outlet_sales** were right skewed.As such, *exponential transformation* was applied to reduce amy skewness or outliers in the data.
+- The values in the column "Item_Fat_Content" were adjusted to be more uniform.
+- Categorical columns were managed with **LabelEncoder**.
+
+---
+### Instructions for Use
+
+
+---
+### Guidelines for Contributing
 
 ---
 <<<<<<< HEAD
