@@ -1,4 +1,5 @@
 # store_sales_prediction
+
 store_sales_prediction is a package which predicts how various items sell based on a provided dataset.
 To accomplish this, the package uses numerous factors such product type, price and visibility. 
 It can predict items sales for any shopping outlet.
@@ -47,13 +48,14 @@ Our dataset contained null values in two columns: Item_Weight and Outlet_Size. U
 ---
 ### Guidelines for Contributing
 
+
 ---
-<<<<<<< HEAD
+
 ### WebApp Link: https://store-sales-prediction-app.herokuapp.com/
 =======
 ### WebApp Link : https://store-sales-prediction-app.herokuapp.com/
 
->>>>>>> 0286e366d600dbb3646562e502858e2adfa8f199
+
 ---
 ### Credit:
 - Dipendra Singh https://www.linkedin.com/in/dipendrahada/
