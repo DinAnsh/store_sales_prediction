@@ -8,7 +8,7 @@ Let us consider a supermarket has several outlets or stores around the world & t
 ---
 ### Problem Statement:
 Nowadays, shopping malls and Big Marts keep track of individual item sales data to forecast future client demand and adjust inventory management. In a data warehouse, these data stores hold a significant amount of consumer information and particular item details. By mining the data stored in the data warehouse, more anomalies and common patterns can be discovered.
-The main goal is to make the analysis of data and to build a Machine Learning model to predict the sales of each item at a particular outlet. We have 12 columns and 8523 rows of data. We get this data from Kaggle. 
+The main goal is to make the analysis of data and to build a Machine Learning model to predict the sales of each item at a particular outlet. We have 12 columns and 8523 rows of data. We get this data from [Kaggle](https://www.kaggle.com/datasets/brijbhushannanda1979/bigmart-sales-data). 
 
 ---
 ### Exploratory Data Analysis (EDA)
@@ -26,6 +26,8 @@ These hypotheses are subjective. But with further exploration of the data, we wi
 - Data visualization is the graphical representation of information and data.
 - It enables decision-makers to see analytics presented visually, so they can grasp difficult concepts or identify new patterns.
 
+![dataset_info](images/dataset_info.png)
+
 ---
 ### Data Preprocessing:
 As we saw, our dataset contains null values in two columns: Item_Weight and Outlet_Size. By making it exploratory we found some ideas about how we can deal with NaN values in these columns.
@@ -33,6 +35,9 @@ As we saw, our dataset contains null values in two columns: Item_Weight and Outl
 - We replaced null values of **Item_Weight** with each Item_Identifier's mean Weight.
 - For the 'Outlet_Size' column, we found a relation between Outlet_Size and Outlet_Type. We will use this to impute Outlet_Size by taking the most frequent Size based on Outlet type.
 - As the **Item_Visibility** and **Item_Outlet_sales** were right skewed. We applied *exponential transformation* to reduce skewness or outliers.
+
+![skewness](images/skewness.png)
+
 - We made the values of the column "Item_Fat_Content" uniform.
 - Manage categorical columns with **LabelEncoder**.
 
