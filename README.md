@@ -25,8 +25,25 @@ These hypotheses are subjective. But with further exploration of the data, we wi
 ### Data Visualization
 - Data visualization is the graphical representation of information and data.
 - It enables decision-makers to see analytics presented visually, so they can grasp difficult concepts or identify new patterns.
+- Summary of the dataset:
 
 ![dataset_info](images/dataset_info.png)
+
+- Present outliers in the data:
+
+![outliers](images/outliers.png)
+
+- Pairplot and Heatmap:
+
+![pairplot](images/pairplot.png)
+
+![heatmap](images/heatmap.png) 
+
+- Boxplots:
+
+![boxplot](images/boxplot.png)
+
+![boxplot1](images/boxplot1.png)
 
 ---
 ### Data Preprocessing:
